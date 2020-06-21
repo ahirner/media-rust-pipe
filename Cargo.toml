@@ -1,0 +1,12 @@
+[package]
+name = "media-rust-pipe"
+version = "0.1.0"
+authors = ["ahirner <a.hirner@gmail.com>"]
+edition = "2018"
+description = "Rust bridge to Google MediaPipe"
+
+[dependencies]
+cxx = "0.3.4"
+
+[build-dependencies]
+cxx-build = "0.3.4"

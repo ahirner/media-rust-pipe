@@ -1,0 +1,4 @@
+[submodule "mediapipe"]
+	path = mediapipe
+	url = ./mediapipe
+	branch = rusty_01
