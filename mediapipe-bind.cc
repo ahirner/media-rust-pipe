@@ -1,4 +1,4 @@
-#include "mediapipe-bind.h"
+#include "media-rust-pipe/mediapipe-bind.h"
 
 namespace mediapipe {
 
