@@ -1,7 +1,7 @@
 #[cxx::bridge(namespace = mediapipe)]
 pub(crate) mod ffi {
-    extern "C" {
-        include!("../mediapipe-bind.h");
+    unsafe extern "C++" {
+        include!("media-rust-pipe/mediapipe-bind.h");
 
         pub(crate) type ImageFrame;
         pub(crate) fn width(image: &ImageFrame) -> i32;

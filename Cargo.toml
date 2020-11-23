@@ -4,9 +4,10 @@ version = "0.1.0"
 authors = ["ahirner <a.hirner@gmail.com>"]
 edition = "2018"
 description = "Rust bridge to Google MediaPipe"
+links = "media-rust-pipe"
 
 [dependencies]
-cxx = "0.3.4"
+cxx = "1.0.2"
 
 [build-dependencies]
-cxx-build = "0.3.4"
+cxx-build = "1.0.2"
